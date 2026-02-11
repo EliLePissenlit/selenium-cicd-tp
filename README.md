@@ -35,8 +35,8 @@ passe en v4 dans le workflow ci cd
 
 # Multi navigateurs
 
-Chrome ok dans Actions
-Firefox parfois rouge a cause env, continue-on-error mis pour firefox
+En local les deux passent (Chrome et Firefox, 8 passed).
+Sur GitHub Actions le job test (firefox) peut echouer avec exit code 1. Env CI Ubuntu different du Mac, pas un bug du code. continue-on-error sur firefox pour que le pipeline reste vert si seul Chrome reussit.
 
 # Avantages
 
