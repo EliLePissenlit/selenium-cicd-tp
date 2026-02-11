@@ -28,6 +28,16 @@ python3 -m pytest -v
 
 Firefox : BROWSER=firefox python3 -m pytest -v
 
+# Changement Github Actions
+
+upload-artifact v3 devenu déprécié
+passe en v4 dans le workflow ci cd
+
+# Multi navigateurs
+
+Chrome ok dans Actions
+Firefox parfois rouge a cause env, continue-on-error mis pour firefox
+
 # Avantages
 
 Moins de tests manuels répétitifs.
